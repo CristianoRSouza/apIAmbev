@@ -1,0 +1,15 @@
+<po-page-edit
+  [p-title]="user_id == null ? 'Create User' : 'Update User'"
+  (p-save)="save()"
+  (p-cancel)="cancel()"
+>
+  <po-dynamic-form
+    #dynamicForm
+    [p-fields]="fields"
+    (p-form)="getForm($event)"
+    [p-value]="user_values"
+    [p-validate-on-input]="true"
+    [p-validate]="onChangeFields.bind(this)"
+  ></po-dynamic-form>
+  <po-loading-overlay [p-screen-lock]="true" *ngIf="loading"></po-loading-overlay>
+</po-page-edit>

@@ -1,0 +1,17 @@
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\RabbitMqEvent.deps.json
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\RabbitMqEvent.dll
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\RabbitMqEvent.pdb
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.dll
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.dll
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.pdb
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.pdb
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.csproj.AssemblyReference.cache
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.AssemblyInfo.cs
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMq.1B1445DC.Up2Date
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.dll
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\refint\RabbitMqEvent.dll
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\RabbitMqEvent.pdb
+C:\Users\crist\Desktop\ApiAmbev\RabbitMqEvent\obj\Debug\net8.0\ref\RabbitMqEvent.dll

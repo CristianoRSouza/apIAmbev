@@ -1,0 +1,56 @@
+{
+  "users": {
+    "data": [
+      {
+        "id": 1,
+        "email": "string",
+        "username": "string",
+        "password": "string",
+        "name": {
+          "firstname": "string",
+          "lastname": "string"
+        },
+        "address": {
+          "city": "string",
+          "street": "string",
+          "number": "integer",
+          "zipcode": "string",
+          "geolocation": {
+            "lat": "string",
+            "long": "string"
+          }
+        },
+        "phone": "string",
+        "status": "Active",
+        "role": "Customer"
+      }
+    ],
+    "totalItems": 1,
+    "currentPage": 1,
+    "totalPages": 1
+  },
+  "product": {
+    "data": [
+      {
+        "id": "integer",
+        "title": "string",
+        "price": "number",
+        "description": "string",
+        "category": "string",
+        "image": "string",
+        "rating": {
+          "rate": "number",
+          "count": "integer"
+        }
+      }
+    ],
+    "totalItems": "integer",
+    "currentPage": "integer",
+    "totalPages": "integer"
+  },
+  "categories": [
+      "Eletrônicos",
+      "Roupas",
+      "Acessórios"
+    ]
+}

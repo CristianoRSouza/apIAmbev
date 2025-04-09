@@ -1,0 +1,97 @@
+<po-page-default [p-title]="title" [p-actions]="page_actions">
+  <div class="po-row po-mb-3">
+    <po-button
+      *ngIf="!hasInfo"
+      #buttonModal
+      p-label="Product List"
+      p-icon="an an-plus"
+      (p-click)="openModalProducts()"
+    ></po-button>
+  </div>
+
+  <po-table
+    [p-columns]="columns_products"
+    [p-items]="products"
+    [p-hide-table-search]="true"
+    [p-hide-columns-manager]="true"
+    [p-auto-collapse]="true"
+    [p-actions]="hasInfo ? [] : table_action"
+    [p-sort]="true"
+    p-container="true"
+    [p-striped]="true"
+  >
+    <ng-template p-table-cell-template let-column="column" let-row="row">
+      <po-decimal
+        *ngIf="column.property === 'price'"
+        [name]="getColumnName('valor_unitario', row.id)"
+        [(ngModel)]="row.price"
+        (ngModelChange)="(row.price)"
+        [ngModel]="row.price"
+        p-placeholder="0,00"
+        (p-change)="mathUnitPrice(row)"
+        [p-readonly]="hasInfo ? 'true' : 'false'"
+      ></po-decimal>
+      <po-number
+        *ngIf="column.property === 'quantity'"
+        [name]="getColumnName('quantity', row.id)"
+        [(ngModel)]="row.quantity"
+        (ngModelChange)="(row.quantity)"
+        [ngModel]="row.quantity"
+        [p-min]="0"
+        [p-max]="20"
+        p-placeholder="0"
+        (p-change)="mathQuantity(row)"
+        [p-readonly]="hasInfo ? 'true' : 'false'"
+      ></po-number>
+      <po-number
+        *ngIf="column.property === 'discount'"
+        [name]="getColumnName('discount', row.id)"
+        [(ngModel)]="row.discount"
+        (ngModelChange)="(row.discount)"
+        [ngModel]="row.discount"
+        p-icon="an an-percent"
+        p-readonly="true"
+        p-placeholder="00%"
+      ></po-number>
+      <po-decimal
+        *ngIf="column.property === 'totalPrice'"
+        [name]="getColumnName('totalPrice', row.id)"
+        [(ngModel)]="row.totalPrice"
+        (ngModelChange)="(row.totalPrice)"
+        [ngModel]="row.totalPrice"
+        p-readonly="true"
+        p-placeholder="0,00"
+      ></po-decimal>
+    </ng-template>
+  </po-table>
+
+  <po-modal
+    p-title="Products"
+    #modalProducts
+    p-size="lg"
+    [p-hide-close]="true"
+    [p-click-out]="true"
+    [p-primary-action]="cancelModal"
+  >
+    <po-table
+      #table
+      p-container="true"
+      [p-striped]="true"
+      [p-hide-columns-manager]="true"
+      [p-hide-table-search]="false"
+      [p-hide-select-all]="true"
+      [p-selectable-entire-line]="true"
+      [p-columns]="table_columns"
+      [p-single-select]="true"
+      [p-items]="table_items"
+      [p-height]="300"
+      [p-selectable]="true"
+      (p-selected)="onSelectProduto($event)"
+    ></po-table>
+  </po-modal>
+
+  <po-loading-overlay
+    *ngIf="loading"
+    [p-screen-lock]="true"
+  ></po-loading-overlay>
+</po-page-default>

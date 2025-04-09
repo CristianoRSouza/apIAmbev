@@ -1,0 +1,17 @@
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluationRedis.deps.json
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluationRedis.dll
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluationRedis.pdb
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.dll
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.dll
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Domain.pdb
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\bin\Debug\net8.0\Ambev.DeveloperEvaluation.Common.pdb
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.csproj.AssemblyReference.cache
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.AssemblyInfo.cs
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.De.5D1DD8F4.Up2Date
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.dll
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\refint\Ambev.DeveloperEvaluationRedis.dll
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\Ambev.DeveloperEvaluationRedis.pdb
+C:\Users\crist\Desktop\ApiAmbev\Ambev.DeveloperEvaluationRedis\obj\Debug\net8.0\ref\Ambev.DeveloperEvaluationRedis.dll

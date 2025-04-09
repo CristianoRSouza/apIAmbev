@@ -1,0 +1,14 @@
+<po-page-edit
+  [p-title]="product_id == null ? 'Create Product' : 'Update Product'"
+  (p-save)="save()"
+  (p-cancel)="cancel()"
+>
+  <po-dynamic-form
+    #dynamicForm
+    [p-fields]="fields"
+    (p-form)="getForm($event)"
+    [p-value]="product_values"
+    [p-validate-on-input]="true"
+  ></po-dynamic-form>
+  <po-loading-overlay [p-screen-lock]="true" *ngIf="loading"></po-loading-overlay>
+</po-page-edit>

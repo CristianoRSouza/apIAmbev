@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.actions-column {
+  width: 1%; /* Define a menor largura possível */
+  white-space: nowrap; /* Evita quebra de linha */
+  text-align: center; /* Centraliza os ícones */
+}
+
+.actions-column button {
+  padding: 0; /* Remove espaços extras */
+  margin: 0 2px; /* Espaço mínimo entre os botões */
+}
+
+.actions-column mat-icon {
+  font-size: 18px; /* Reduz tamanho do ícone */
+}
+table {
+  width: 100%;
+}
+
+.po-field-container {
+  padding-inline: 10px !important;
+}
